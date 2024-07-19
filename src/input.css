@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Fustat", sans-serif;
+}
+/* .it-has-animation {
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+  transition: all 1s;
+}
+.start-animation {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+} */
