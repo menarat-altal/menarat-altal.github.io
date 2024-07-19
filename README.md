@@ -1,1 +1,0 @@
-# menarat-altal.github.io
