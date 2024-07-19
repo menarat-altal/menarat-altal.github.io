@@ -836,17 +836,6 @@ body {
   font-family: "Fustat", sans-serif;
 }
 
-.it-has-animation {
-  -webkit-backdrop-filter: blur(0px);
-  backdrop-filter: blur(0px);
-  transition: all 1s;
-}
-
-.start-animation {
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-}
-
 .after\:absolute::after {
   content: var(--tw-content);
   position: absolute;
@@ -924,12 +913,5 @@ body {
 @media (min-width: 1024px) {
   .lg\:bg-center {
     background-position: center;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:bg-white {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 }

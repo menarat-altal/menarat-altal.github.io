@@ -7,6 +7,3 @@ linksList.forEach((link) => {
       : window.open(link, "_blank");
   });
 });
-const ele = document.querySelector(".it-has-animation");
-document.onreadystatechange = () =>
-  document.readyState === "complete" && ele.classList.add("start-animation");
