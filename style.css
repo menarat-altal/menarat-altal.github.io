@@ -707,7 +707,7 @@ video {
 }
 
 .bg-bodyBg {
-  background-image: url('./Frame 2 (1).jpg');
+  background-image: url(bodyBg.jpg);
 }
 
 .bg-cover {
