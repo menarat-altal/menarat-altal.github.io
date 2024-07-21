@@ -4,3 +4,11 @@
 body {
   font-family: "Fustat", sans-serif;
 }
+::-moz-selection {
+  background-color: white;
+  color: white;
+}
+::selection {
+  background-color: white;
+  color: white;
+}

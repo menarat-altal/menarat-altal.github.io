@@ -27,31 +27,44 @@
         <link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap" rel="stylesheet">
     </head>
     <body dir="rtl" class="bg-bodyBg bg-cover bg-right lg:bg-center h-dvh">
-        <div class="bg-white/25 backdrop-blur-xl w-screen flex items-center justify-between gap-2 px-4 py-2 absolute top-0 left-0 border-b border-[rgba(238,238,238,.3490196078)]">
-            <span class="text-white text-xl">شركة منارات التل للتجارة</span>
+        <div class="bg-white text-black w-screen flex items-center justify-between gap-2 px-4 py-2 absolute top-0 left-0">
+            <span class="text-xl">شركة منارات التل للتجارة</span>
             <img src="./assets/logo.jpg" alt="userImage" class="rounded-full w-11 h-11 object-cover object-center">
         </div>
         <div class="container md:max-w-2xl m-auto px-4 py-8 h-full w-full flex flex-col justify-center items-center gap-8 text-white">
-            <button class="bg-white/25 backdrop-blur-md h-16 text-center cursor-default outline-none w-full py-2 px-4 rounded-md text-lg leading-none">
+            <div class="bg-black text-black relative backdrop-blur-md h-16 w-full py-2 px-4 rounded-md text-lg leading-none flex justify-center items-center text-center
+            after:content-['']
+            after:absolute
+            after:top-0
+            after:right-2/4
+            after:translate-x-2/4
+            after:bg-white
+            after:w-[calc(100%-10px)]
+            hover:text-black
+            after:h-full
+            after:rounded-md
+            after:-z-10
+            
+            ">
                 متخصصون بأجود أنواع السيراميك والبورسلان الاسباني
-            </button>
-            <button data-link="https://www.instagram.com/menaratattal_ceramic" class="link bg-white/25 backdrop-blur-md select-none outline-none capitalize w-full flex justify-between items-center py-2 px-4 rounded-md relative transition-all duration-500
+            </div>
+            <button data-link="https://www.instagram.com/menaratattal_ceramic" class="link bg-black select-none outline-none capitalize w-full flex justify-between items-center py-2 px-4 rounded-md relative transition-all duration-500
             after:content-['']
             after:transition-all
             after:duration-500
             after:absolute
             after:top-0
-            after:right-0
+            after:right-2/4
+            after:translate-x-2/4
             after:bg-white
             after:w-0
-            hover:after:w-full
+            hover:after:w-[calc(100%-10px)]
             hover:text-black
             after:h-full
-            after:-z-10
             after:rounded-md">
-                <span class="text-xl">instagram</span>
+                <span class="text-xl z-10">حسابنا على الانستغرام</span>
                 <svg
-                    class="w-8 h-8"
+                    class="w-8 h-8 z-10"
                     fill="currentColor"
                     viewBox="0 0 256 256"
                     xmlns="http://www.w3.org/2000/svg"
@@ -60,25 +73,25 @@
                     <path d="M160,128a32,32,0,1,1-32-32A32.03667,32.03667,0,0,1,160,128Zm68-44v88a56.06353,56.06353,0,0,1-56,56H84a56.06353,56.06353,0,0,1-56-56V84A56.06353,56.06353,0,0,1,84,28h88A56.06353,56.06353,0,0,1,228,84Zm-52,44a48,48,0,1,0-48,48A48.05436,48.05436,0,0,0,176,128Zm16-52a12,12,0,1,0-12,12A12,12,0,0,0,192,76Z"></path>
                 </svg>
             </button>
-            <button data-link="https://wa.me/+9660540022600" class="link bg-white/25 backdrop-blur-md select-none outline-none capitalize w-full flex justify-between items-center py-2 px-4 rounded-md relative transition-all duration-500
+            <button data-link="https://wa.me/+9660540022600" class="link bg-black select-none outline-none capitalize w-full flex justify-between items-center py-2 px-4 rounded-md relative transition-all duration-500
             after:content-['']
             after:transition-all
             after:duration-500
             after:absolute
             after:top-0
-            after:right-0
+            after:right-2/4
+            after:translate-x-2/4
             after:bg-white
             after:w-0
-            hover:after:w-full
+            hover:after:w-[calc(100%-10px)]
             hover:text-black
             after:h-full
-            after:-z-10
             after:rounded-md">
-                <span class="text-xl">Whatsapp</span>
+                <span class="text-xl z-10">راسلنا عبر الواتساب</span>
                 <svg
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-8 h-8"
+                    class="w-8 h-8 z-10"
                     fill="currentColor"
                 >
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -96,24 +109,51 @@
                     </g>
                 </svg>
             </button>
-            <button data-link="https://maps.app.goo.gl/5cQw4EFvSUF7QDWj9" class="link bg-white/25 backdrop-blur-md select-none outline-none capitalize w-full flex justify-between items-center py-2 px-4 rounded-md
+            <button data-link="tel:+9660540022600" class="link bg-black select-none outline-none capitalize relative w-full flex justify-between items-center py-2 px-4 rounded-md transition-all duration-500
             after:content-['']
             after:transition-all
             after:duration-500
             after:absolute
             after:top-0
-            after:right-0
+            after:right-2/4
+            after:translate-x-2/4
             after:bg-white
             after:w-0
-            hover:after:w-full
+            hover:after:w-[calc(100%-10px)]
             hover:text-black
             after:h-full
-            after:-z-10
             after:rounded-md
             ">
-                <span class="text-xl">تفضل بزيارة شركتنا</span>
+                <span class="text-xl z-10">اتصل بنا</span>
                 <svg
-                    class="w-8 h-8"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    class="w-8 h-8 z-10"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <!-- <g id="SVGRepo_iconCarrier"> -->
+                    <path d="M16.5562 12.9062L16.1007 13.359C16.1007 13.359 15.0181 14.4355 12.0631 11.4972C9.10812 8.55901 10.1907 7.48257 10.1907 7.48257L10.4775 7.19738C11.1841 6.49484 11.2507 5.36691 10.6342 4.54348L9.37326 2.85908C8.61028 1.83992 7.13596 1.70529 6.26145 2.57483L4.69185 4.13552C4.25823 4.56668 3.96765 5.12559 4.00289 5.74561C4.09304 7.33182 4.81071 10.7447 8.81536 14.7266C13.0621 18.9492 17.0468 19.117 18.6763 18.9651C19.1917 18.9171 19.6399 18.6546 20.0011 18.2954L21.4217 16.883C22.3806 15.9295 22.1102 14.2949 20.8833 13.628L18.9728 12.5894C18.1672 12.1515 17.1858 12.2801 16.5562 12.9062Z"></path>
+                    <!-- </g> -->
+                </svg>
+            </button>
+            <button data-link="https://maps.app.goo.gl/5cQw4EFvSUF7QDWj9" class="link bg-black select-none outline-none capitalize relative w-full flex justify-between items-center py-2 px-4 rounded-md transition-all duration-500
+            after:content-['']
+            after:transition-all
+            after:duration-500
+            after:absolute
+            after:top-0
+            after:right-2/4
+            after:translate-x-2/4
+            after:bg-white
+            after:w-0
+            hover:after:w-[calc(100%-10px)]
+            hover:text-black
+            after:h-full
+            after:rounded-md
+            ">
+                <span class="text-xl z-10">تفضل بزيارة شركتنا</span>
+                <svg
+                    class="w-8 h-8 z-10"
                     fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -129,14 +169,46 @@
                     </g>
                 </svg>
             </button>
-            <footer class="bg-white text-black rounded-md px-2 absolute bottom-2 font-bold" dir="rtl">
-                انشئ بواسطة
+            <button data-link="mailto:manaratattal@hotmail.com" class="link bg-black select-none outline-none capitalize relative w-full flex justify-between items-center py-2 px-4 rounded-md transition-all duration-500
+            after:content-['']
+            after:transition-all
+            after:duration-500
+            after:absolute
+            after:top-0
+            after:right-2/4
+            after:translate-x-2/4
+            after:bg-white
+            after:w-0
+            hover:after:w-[calc(100%-10px)]
+            hover:text-black
+            after:h-full
+            after:rounded-md
+            ">
+                <span class="text-xl z-10">راسلنا عبر البريد الالكتروني</span>
+                <svg
+                    class="w-8 h-8 z-10"
+                    fill="currentColor"
+                    viewBox="0 0 1920 1920"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z" fill-rule="evenodd"></path>
+                    </g>
+                </svg>
+            </button>
+            <!-- <button class="bg-white text-black rounded-md px-8 py-2 font-bold">
+                معرض اعمالنا
+            </button> -->
+            <footer class="absolute bottom-2 font-bold flex" dir="rtl">
+                <span class="bg-white text-black px-2 rounded-r-md">انشئ بواسطة</span>
                 <a
                     dir="ltr"
                     href="https://yazn-108.github.io/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="italic underline decoration-black"
+                    class="italic bg-black text-white px-2 rounded-l-md"
                 >@yazn_108</a>
             </footer>
         </div>
